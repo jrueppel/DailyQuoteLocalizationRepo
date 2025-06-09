@@ -4,11 +4,15 @@ import subprocess
 import os
 import re
 
+print(">>> Script started")
+
 # CONFIG
 REPO_DIR = "/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo"  # Replace this
 STRINGS_FILE = os.path.join(REPO_DIR, "daily_sentences.strings")
 ZENQUOTES_API_KEY = "your_api_key_here"  # Replace with your actual key
 ZENQUOTES_URL = f"https://zenquotes.io/api/quotes/{ZENQUOTES_API_KEY}"
+
+
 
 def sanitize_author(author):
     # Replace spaces with underscores and strip non-alphanumerics
@@ -26,6 +30,10 @@ def fetch_quote_data():
             raise Exception("Empty quote data.")
     else:
         raise Exception(f"Failed to fetch quote: {response.status_code} - {response.text}")
+    # After fetching the quote:
+    print(f">>> Quote fetched: \"{quote}\" by {author}")
+
+
 
 def append_to_file(quote, author):
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -33,6 +41,8 @@ def append_to_file(quote, author):
     key = f"{date_str}_{author_key}"
     with open(STRINGS_FILE, "a") as f:
         f.write(f'"{key}" = "{quote}";\n')
+    # After writing to the .strings file:
+    print(f">>> Added to .strings file: key = {key}")
 
 
 def git_commit_push():
@@ -40,6 +50,8 @@ def git_commit_push():
     commit_msg = f"Add quote for {datetime.now().strftime('%Y-%m-%d')}"
     subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR)
     subprocess.run(["git", "push"], cwd=REPO_DIR)
+    # After git commit/push:
+    print(">>> Git push complete")
 
 def main():
     try:
@@ -47,6 +59,7 @@ def main():
         append_to_file(quote, author)
         git_commit_push()
         print("Daily quote added and pushed.")
+        print(">>> Script finished")
     except Exception as e:
         print(f"Error: {e}")
 
