@@ -1,0 +1,1 @@
+* * * * * /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/run_daily_quote.sh >> /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/logs/cron.log 2>&1
