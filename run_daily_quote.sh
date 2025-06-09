@@ -1,19 +1,9 @@
-#!/bin/bash
+#!/bin/zsh
+echo "Script started at $(date)" >> /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/logs/script_debug.log
 
-# Absolute path to your log file
-LOGFILE="/Users/jeffrueppel/cron.log"
+# >>> Conda initialize >>>
+source /Users/jeffrueppel/miniconda3/etc/profile.d/conda.sh
+conda activate base
+# <<< Conda initialize <<<
 
-# Log start time
-echo "===== Script started at $(date) =====" >> "$LOGFILE"
-
-# Change to repo directory
-cd /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo || {
-  echo "❌ Failed to cd into repo dir" >> "$LOGFILE"
-  exit 1
-}
-
-# Log which Python will be used
-echo "Using Python: $(which python3)" >> "$LOGFILE"
-
-cd /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo
-/Users/jeffrueppel/miniconda3/bin/python /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py  >> "$LOGFILE" 2>&1
+python /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py >> /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/logs/script_debug.log 2>&1
