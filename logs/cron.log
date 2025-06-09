@@ -1,1 +1,200 @@
 zsh: command not found: run_daily_quote.sh
+./run_daily_quote.sh: line 3: ./daily_quote_script.py: No such file or directory
+./run_daily_quote.sh: line 3: /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/daily_quote_script.py: No such file or directory
+./run_daily_quote.sh: line 3: /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: Permission denied
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 2: cells:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 4: cell_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 5: execution_count:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 6: id:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 7: metadata:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 8: outputs:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 10: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 11: output_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 12: text:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 13: [main 8e73616] Add quote for 2025-06-07\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 14:  1 file changed, 1 insertion(+)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 15: Daily quote added and pushed.\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 16: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 17: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 19: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 20: output_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 21: text:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 22: To https://github.com/jrueppel/DailyQuoteLocalizationRepo.git\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 23:    8112613..8e73616  main -> main\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 24: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 26: ],: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 27: source:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 28: import requests\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 29: from datetime import datetime\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 30: import subprocess\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 31: import os\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 32: import re\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 33: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 34: # CONFIG\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 35: REPO_DIR = "/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo"  # Replace this\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 36: STRINGS_FILE = os.path.join(REPO_DIR, "daily_sentences.strings")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 37: ZENQUOTES_API_KEY = "your_api_key_here"  # Replace with your actual key\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 38: ZENQUOTES_URL = f"https://zenquotes.io/api/quotes/{ZENQUOTES_API_KEY}"\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 39: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 40: def sanitize_author(author):\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 41:     # Replace spaces with underscores and strip non-alphanumerics\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 42:     return re.sub(r'\W+', '', author.replace(" ", "_"))\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 43: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 44: def fetch_quote_data():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 45:     response = requests.get(ZENQUOTES_URL)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 46:     if response.status_code == 200:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 47:         data = response.json()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 48:         if isinstance(data, list) and len(data) > 0:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 49:             quote = data[0].get("q", "").strip()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 50:             author = data[0].get("a", "Unknown").strip()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 51:             return quote, author\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 52:         else:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 53:             raise Exception("Empty quote data.")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 54:     else:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 55:         raise Exception(f"Failed to fetch quote: {response.status_code} - {response.text}")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 56: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 57: def append_to_file(quote, author):\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 58:     date_str = datetime.now().strftime("%Y-%m-%d")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 59:     author_key = sanitize_author(author)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 60:     key = f"{date_str}_{author_key}"\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 61:     with open(STRINGS_FILE, "a") as f:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 62:         f.write(f'"{key}" = "{quote}";\n')\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 63: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 64: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 65: def git_commit_push():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 66:     subprocess.run(["git", "add", "."], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 67:     commit_msg = f"Add quote for {datetime.now().strftime('%Y-%m-%d')}"\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 68:     subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 69:     subprocess.run(["git", "push"], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 70: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 71: def main():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 72:     try:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 73:         quote, author = fetch_quote_data()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 74:         append_to_file(quote, author)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 75:         git_commit_push()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 76:         print("Daily quote added and pushed.")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 77:     except Exception as e:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 78:         print(f"Error: {e}")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 79: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 80: if __name__ == "__main__":\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 81:     main()\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 82: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 84: ],: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 85: metadata:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 86: kernelspec:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 87: display_name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 88: language:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 89: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 90: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 91: language_info:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 92: codemirror_mode:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 93: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 94: version:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 95: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 96: file_extension:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 97: mimetype:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 98: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 99: nbconvert_exporter:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 100: pygments_lexer:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 101: version:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 103: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 104: nbformat:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 105: nbformat_minor:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 2: cells:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 4: cell_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 5: execution_count:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 6: id:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 7: metadata:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 8: outputs:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 10: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 11: output_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 12: text:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 13: [main 8e73616] Add quote for 2025-06-07\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 14:  1 file changed, 1 insertion(+)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 15: Daily quote added and pushed.\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 16: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 17: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 19: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 20: output_type:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 21: text:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 22: To https://github.com/jrueppel/DailyQuoteLocalizationRepo.git\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 23:    8112613..8e73616  main -> main\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 24: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 26: ],: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 27: source:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 28: import requests\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 29: from datetime import datetime\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 30: import subprocess\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 31: import os\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 32: import re\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 33: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 34: # CONFIG\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 35: REPO_DIR = "/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo"  # Replace this\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 36: STRINGS_FILE = os.path.join(REPO_DIR, "daily_sentences.strings")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 37: ZENQUOTES_API_KEY = "your_api_key_here"  # Replace with your actual key\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 38: ZENQUOTES_URL = f"https://zenquotes.io/api/quotes/{ZENQUOTES_API_KEY}"\n,: No such file or directory
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 39: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 40: def sanitize_author(author):\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 41:     # Replace spaces with underscores and strip non-alphanumerics\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 42:     return re.sub(r'\W+', '', author.replace(" ", "_"))\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 43: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 44: def fetch_quote_data():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 45:     response = requests.get(ZENQUOTES_URL)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 46:     if response.status_code == 200:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 47:         data = response.json()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 48:         if isinstance(data, list) and len(data) > 0:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 49:             quote = data[0].get("q", "").strip()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 50:             author = data[0].get("a", "Unknown").strip()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 51:             return quote, author\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 52:         else:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 53:             raise Exception("Empty quote data.")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 54:     else:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 55:         raise Exception(f"Failed to fetch quote: {response.status_code} - {response.text}")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 56: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 57: def append_to_file(quote, author):\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 58:     date_str = datetime.now().strftime("%Y-%m-%d")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 59:     author_key = sanitize_author(author)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 60:     key = f"{date_str}_{author_key}"\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 61:     with open(STRINGS_FILE, "a") as f:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 62:         f.write(f'"{key}" = "{quote}";\n')\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 63: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 64: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 65: def git_commit_push():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 66:     subprocess.run(["git", "add", "."], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 67:     commit_msg = f"Add quote for {datetime.now().strftime('%Y-%m-%d')}"\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 68:     subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 69:     subprocess.run(["git", "push"], cwd=REPO_DIR)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 70: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 71: def main():\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 72:     try:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 73:         quote, author = fetch_quote_data()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 74:         append_to_file(quote, author)\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 75:         git_commit_push()\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 76:         print("Daily quote added and pushed.")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 77:     except Exception as e:\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 78:         print(f"Error: {e}")\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 79: \n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 80: if __name__ == "__main__":\n,: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 81:     main()\n: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 82: ]: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 84: ],: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 85: metadata:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 86: kernelspec:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 87: display_name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 88: language:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 89: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 90: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 91: language_info:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 92: codemirror_mode:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 93: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 94: version:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 95: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 96: file_extension:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 97: mimetype:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 98: name:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 99: nbconvert_exporter:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 100: pygments_lexer:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 101: version:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 103: },: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 104: nbformat:: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 105: nbformat_minor:: command not found
