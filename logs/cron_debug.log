@@ -2,3 +2,7 @@
 >>> run_daily_quote.sh reached top of script at Sun Jun  8 22:00:46 PDT 2025
 >>> SHELL is /bin/zsh
 >>> PATH is /bin:/usr/bin:/usr/ucb:/usr/local/bin
+>>> run_daily_quote.sh reached top of script at Sun Jun  8 22:03:02 PDT 2025
+>>> SHELL is /bin/zsh
+>>> PATH is /bin:/usr/bin:/usr/ucb:/usr/local/bin
+>>> Running Python script using /Users/jeffrueppel/miniconda3/bin/python...
