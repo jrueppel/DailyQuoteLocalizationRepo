@@ -3,8 +3,9 @@ from datetime import datetime
 import subprocess
 import os
 import re
+import sys
 
-print(">>> Script started")
+print(">>> Script started", flush=True)
 
 # CONFIG
 REPO_DIR = "/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo"  # Replace this
@@ -31,7 +32,7 @@ def fetch_quote_data():
     else:
         raise Exception(f"Failed to fetch quote: {response.status_code} - {response.text}")
     # After fetching the quote:
-    print(f">>> Quote fetched: \"{quote}\" by {author}")
+    print(f">>> Quote fetched: \"{quote}\" by {author}", flush=True)
 
 
 
@@ -42,7 +43,7 @@ def append_to_file(quote, author):
     with open(STRINGS_FILE, "a") as f:
         f.write(f'"{key}" = "{quote}";\n')
     # After writing to the .strings file:
-    print(f">>> Added to .strings file: key = {key}")
+    print(f">>> Added to .strings file: key = {key}", flush=True)
 
 
 def git_commit_push():
@@ -51,7 +52,7 @@ def git_commit_push():
     subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR)
     subprocess.run(["git", "push"], cwd=REPO_DIR)
     # After git commit/push:
-    print(">>> Git push complete")
+    print(">>> Git push complete", flush=True)
 
 def main():
     try:
