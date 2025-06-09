@@ -198,3 +198,20 @@ zsh: command not found: run_daily_quote.sh
 /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 103: },: command not found
 /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 104: nbformat:: command not found
 /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.ipynb: line 105: nbformat_minor:: command not found
+./run_daily_quote.sh: line 3: /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: Permission denied
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 1: import: command not found
+from: can't read /var/mail/datetime
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 3: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 4: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 5: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 8: REPO_DIR: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 9: syntax error near unexpected token `('
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 9: `STRINGS_FILE = os.path.join(REPO_DIR, "daily_sentences.strings")'
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 1: import: command not found
+from: can't read /var/mail/datetime
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 3: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 4: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 5: import: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 8: REPO_DIR: command not found
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 9: syntax error near unexpected token `('
+/Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/AddNewStringEveryDay.py: line 9: `STRINGS_FILE = os.path.join(REPO_DIR, "daily_sentences.strings")'
