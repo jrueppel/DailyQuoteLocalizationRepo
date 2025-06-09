@@ -10,3 +10,7 @@
 >>> SHELL is /bin/zsh
 >>> PATH is /bin:/usr/bin:/usr/ucb:/usr/local/bin
 >>> Running Python script using /Users/jeffrueppel/miniconda3/bin/python...
+>>> run_daily_quote.sh reached top of script at Sun Jun  8 22:16:50 PDT 2025
+>>> SHELL is /bin/zsh
+>>> PATH is /bin:/usr/bin:/usr/ucb:/usr/local/bin
+>>> Running Python script using /Users/jeffrueppel/miniconda3/bin/python...

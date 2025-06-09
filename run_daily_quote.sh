@@ -7,6 +7,7 @@ echo ">>> run_daily_quote.sh reached top of script at $(date)" >> /Users/jeffrue
 echo ">>> SHELL is $SHELL" >> /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/logs/cron_debug.log
 echo ">>> PATH is $PATH" >> /Users/jeffrueppel/Documents/GitHub/DailyQuoteLocalizationRepo/logs/cron_debug.log
 
+PATH=/usr/local/bin:/usr/bin:/bin:/Users/jeffrueppel/miniconda3/bin
 
 # Skip conda activation
 PYTHON_BIN="/Users/jeffrueppel/miniconda3/bin/python"  # ← update if different
